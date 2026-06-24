@@ -1,0 +1,29 @@
+# Data folder (too large for GitHub)
+data/india/
+data/us/
+data/index/
+
+# Output folder (generated daily)
+output/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+.env
+venv/
+.venv/
+
+# Secrets (NEVER commit these)
+*.json
+secrets.txt
+tokens.txt
+service_account.json
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# OS files
+.DS_Store
+Thumbs.db
